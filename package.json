@@ -1,0 +1,22 @@
+// package.json
+{
+    "name": "proCryptoProtocol",
+    "version": "1.0.0",
+    "description": "ProCryptoProtocol - A powerful utility",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "node src/main.js",
+        "test": "mocha test/*.js",
+        "lint": "eslint src test"
+    },
+    "keywords": [],
+    "author": "angeldv",
+    "license": "MIT",
+    "dependencies": {
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "mocha": "^10.0.0",
+        "eslint": "^8.0.0"
+    }
+}
